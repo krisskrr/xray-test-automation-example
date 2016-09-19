@@ -1,5 +1,6 @@
 # xray-test-automation-example
 Studying usage of Xray (JIRA plugin)
+(actual implementation with Xray pending...)
 
 # demo
 ```mvn test``` launches tests (Chrome browser will open and perform a search in google search engine);
