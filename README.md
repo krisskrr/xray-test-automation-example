@@ -11,6 +11,6 @@ mvn test
 ```
 
 # requirements
-- Java
-- Maven
+- Java (```java -version``` to test)
+- Maven (```mvn -v``` to test)
 - Chrome (test project has chromedriver binary, but one must have Chrome installed for driver to work https://sites.google.com/a/chromium.org/chromedriver/getting-started )
