@@ -18,7 +18,7 @@ public class Google {
     }
 
     @When("^I click magnifying glass icon$")
-    public void i_click_button() throws Throwable {
+    public void i_click_magnifying_glass_icon() throws Throwable {
         driver.findElement(By.className("lsb")).click();
     }
 
