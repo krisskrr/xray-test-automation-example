@@ -19,6 +19,7 @@ Configuration wiki: https://github.com/kristapsmelderis/xray-test-automation-exa
 - Chrome (test project has chromedriver binary, but one must have Chrome installed for driver to work https://sites.google.com/a/chromium.org/chromedriver/getting-started )
 
 # tool stack details
+- Code: Java + selenium-java
 - Test Runner: Maven Surefire + JUnit + Cucumber JVM
 - Test Repository: Xray JIRA plugin
 - Test Reporting: maven-cucumber-reporting: https://github.com/damianszczepanik/maven-cucumber-reporting
