@@ -7,11 +7,13 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.util.concurrent.TimeUnit;
 
+import static com.kristapsmelderis.examples.config.SystemProperties.CHROMEDRIVER_BINARY_PATH;
+
 public class Driver {
     public static WebDriver driver;
 
     public static WebDriver initChromeDriver() {
-        System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", CHROMEDRIVER_BINARY_PATH);
         ChromeOptions options = new ChromeOptions();
         DesiredCapabilities capabilities = DesiredCapabilities.chrome();
         options.addArguments("--ignore-certificate-errors");

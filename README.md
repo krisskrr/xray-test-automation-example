@@ -1,16 +1,27 @@
 # xray-test-automation-example
 Studying usage of Xray (JIRA plugin)
-(actual implementation with Xray pending...)
+
 
 # demo
-```mvn test``` launches tests (Chrome browser will open and perform a search in google search engine);
+- clone the project
+- go to directory of the project after clone
+- execute below command (change values for -D parameters, what you see below is dummy data)
 ```
-git clone git@github.com:kristapsmelderis/xray-test-automation-example.git
-cd xray-test-automation-example
-mvn test
+mvn clean verify -DjiraRootURL=https://jira.johndoeinc.com -DjiraUsername=johndoe -DjiraPassword=ilovejanedoe -DjiraIssueKeys=ABC-123;ABC-456
 ```
+Configuration wiki: https://github.com/kristapsmelderis/xray-test-automation-example/wiki/Configuration
+
+Test report should be visible in: ```target/cucumber-html-reports/feature-overview.html```
 
 # requirements
 - Java (```java -version``` to test)
 - Maven (```mvn -v``` to test)
+- cURL (WinOS)(```curl``` in cmd to test, install cURL info: http://www.confusedbycode.com/curl/)
+- cURL (Linux)(```curl``` in terminal, ```sudo apt-get install curl``` to install, have not tested!) 
 - Chrome (test project has chromedriver binary, but one must have Chrome installed for driver to work https://sites.google.com/a/chromium.org/chromedriver/getting-started )
+
+# tool stack details
+- Code: Java + selenium-java
+- Test Runner: Maven Surefire + JUnit + Cucumber JVM
+- Test Repository: Xray JIRA plugin
+- Test Reporting: maven-cucumber-reporting: https://github.com/damianszczepanik/maven-cucumber-reporting

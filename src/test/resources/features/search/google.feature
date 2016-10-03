@@ -3,6 +3,7 @@ Feature: Search engines
   I would like to search the web using search engines
   So that I could quickly find relevant results
 
+  @project-embedded-scenario
   Scenario: google for "latest tech in IT"
     Given I navigate to "http://google.com"
     When I enter "latest tech in IT"
