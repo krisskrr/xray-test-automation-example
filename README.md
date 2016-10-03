@@ -27,4 +27,4 @@ Test report should be visible in: ```target/cucumber-html-reports/feature-overvi
 - Test Reporting: maven-cucumber-reporting: https://github.com/damianszczepanik/maven-cucumber-reporting
 
 #troubleshooting
-- if you installed cURL, but it is still not found, might be because of .exe extension (if you are on Linux, replace ```"curl.exe"``` with ```"curl"``` in ImportUtils class)
+- if you installed cURL, but it is still not found when running the project, might be because of .exe extension (if you are on Linux, replace ```"curl.exe"``` with ```"curl"``` in ImportUtils class)
