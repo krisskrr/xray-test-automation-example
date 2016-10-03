@@ -9,7 +9,7 @@ Studying usage of Xray (JIRA plugin)
 ```
 mvn clean verify -DjiraRootURL=https://jira.johndoeinc.com -DjiraUsername=johndoe -DjiraPassword=ilovejanedoe -DjiraIssueKeys=ABC-123;ABC-456
 ```
-Read more about configuration details in wiki: https://github.com/kristapsmelderis/xray-test-automation-example/wiki/Configuration
+Configuration wiki: https://github.com/kristapsmelderis/xray-test-automation-example/wiki/Configuration
 
 # requirements
 - Java (```java -version``` to test)
