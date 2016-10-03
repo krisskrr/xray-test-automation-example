@@ -11,6 +11,8 @@ mvn clean verify -DjiraRootURL=https://jira.johndoeinc.com -DjiraUsername=johndo
 ```
 Configuration wiki: https://github.com/kristapsmelderis/xray-test-automation-example/wiki/Configuration
 
+Test report should be visible in: ```target/cucumber-html-reports/feature-overview.html```
+
 # requirements
 - Java (```java -version``` to test)
 - Maven (```mvn -v``` to test)
