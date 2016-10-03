@@ -3,13 +3,13 @@ Studying usage of Xray (JIRA plugin)
 
 
 # demo
+- clone the project
+- go to directory of the project after clone
+- execute below command (change values for -D parameters, what you see below is dummy data)
 ```
-git clone git@github.com:kristapsmelderis/xray-test-automation-example.git
-cd xray-test-automation-example
-mvn clean verify
+mvn clean verify -DjiraRootURL=https://jira.johndoeinc.com -DjiraUsername=johndoe -DjiraPassword=ilovejanedoe -DjiraIssueKeys=ABC-123;ABC-456
 ```
-
-```mvn clean verify``` launches tests (Chrome browser will open and perform a search in google search engine);
+Read more about configuration details in wiki: url
 
 # requirements
 - Java (```java -version``` to test)
