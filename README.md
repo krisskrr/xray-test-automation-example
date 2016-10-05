@@ -1,5 +1,5 @@
 # xray-test-automation-example
-Studying usage of Xray (JIRA plugin)
+Proof of Concept study of Xray (JIRA plugin)
 
 
 # demo
