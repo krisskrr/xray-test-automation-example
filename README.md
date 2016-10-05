@@ -29,4 +29,4 @@ If all goes well, your "Test Execution" plan in JIRA-Xray should be updated with
 - Test Reporting: maven-cucumber-reporting: https://github.com/damianszczepanik/maven-cucumber-reporting
 
 #troubleshooting
-- if you installed cURL, but it is still not found when running the project, might be because of .exe extension (if you are on Linux, replace ```"curl.exe"``` with ```"curl"``` in ImportUtils class)
+- if you installed cURL, but it is still not found when running the project, might be because of .exe extension (if you are on Linux, replace ```"curl.exe"``` with ```"curl"``` in ```Utils``` class)
