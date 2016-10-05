@@ -73,4 +73,3 @@ hs_err_pid*
 ### Manually added ###
 .idea
 target
-src/test/resources/TestsImportedFromJira
