@@ -1,6 +1,8 @@
 # xray-test-automation-example
 Proof of Concept study of Xray (JIRA plugin)
 
+Example code allows to import Cucumber Scenarios from Xray (JIRA) issues via REST interface with basic authentication. Tests are then executed (one scenario exists in project that can be used to quickly copy it to an xray issue), generated .json report is exported back to Xray (JIRA) via REST with basic authentication.
+
 
 # demo
 - clone the project
