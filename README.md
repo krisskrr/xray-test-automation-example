@@ -13,6 +13,8 @@ Configuration wiki: https://github.com/kristapsmelderis/xray-test-automation-exa
 
 Test report should be visible in: ```target/cucumber-html-reports/feature-overview.html```
 
+If all goes well, your "Test Execution" plan in JIRA-Xray should be updated with status. You can pass just the Test Execution issueKey and import should get all the children issues and report back on their status.
+
 # requirements
 - Java (```java -version``` to test)
 - Maven (```mvn -v``` to test)
